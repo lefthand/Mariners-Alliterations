@@ -1,0 +1,18 @@
+alliterations:
+  build: .
+  command: ./node_modules/.bin/nodemon ./bin/www
+  ports:
+   - "3100:3000"
+  volumes:
+   - .:/src
+  links:
+   - redis
+  env_file: web.env
+redis:
+  image: redis
+nginx:
+  image: jwilder/nginx-proxy
+  ports:
+    - "80:80"
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro

@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  form#new-post(action="/new-post", method="post")
+    input#alliteration(name="alliteration", type="text", size="140", placeholder="Insert Alliteration Here")
+    input#submit(type="submit", value="Post")
+

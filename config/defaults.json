@@ -1,0 +1,17 @@
+{
+  "port": 3000,
+  "session_secret": "myohmy",
+  "admin_password": "griffey",
+  "redis": {
+    "db": 0 
+  },
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token_key": "",
+    "access_token_secret": ""
+  },
+  "xmlstats": {
+    "access_token": ""
+  }
+}

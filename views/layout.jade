@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    #header
+      h1 Mariners Alliterations
+      #nav
+        ul#links
+          li: a(href="/") Home
+          li: a(href="/about") About
+          if loggedIn
+            li: a(href="/admin") Admin
+            li: a(href="/logout") Logout
+          else
+            li: a(href="/login") Login
+          end
+
+    #content
+      block content
