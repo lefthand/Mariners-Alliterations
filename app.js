@@ -10,6 +10,7 @@ var app = express();
 var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var passport = require('./lib/passport');
+var schedule = require('node-schedule');
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -55,6 +56,15 @@ app.use(function(err, req, res, next) {
     message: err.message,
     error: {}
   });
+});
+
+var process = require('./cron/process.js');
+schedule.scheduleJob('*/10 * * * *', function(){
+  process.findGames();
+});
+var game_schedule = require('./cron/schedule.js');
+schedule.scheduleJob('52 9 * * *', function(){
+  game_schedule.saveSchedule();
 });
 
 module.exports = app;
