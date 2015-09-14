@@ -16,6 +16,7 @@ function processGame(game) {
             find_alliterations.process_boxscore(boxscore);
           });
           redis.hdel("games", game, function(err, success) {
+            console.log('Done processing: ' + game);
             if (err) {
               console.log(err);
             }
