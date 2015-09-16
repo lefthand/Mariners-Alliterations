@@ -6,7 +6,7 @@ body {
   background: #075C5B;
 }
 
-a {
+#header a {
   color: #FFF;
 }
 
@@ -18,6 +18,10 @@ a {
 
 #header h1 {
   display: inline;
+}
+
+body a {
+  color: #075C5B;
 }
 
 #nav {
