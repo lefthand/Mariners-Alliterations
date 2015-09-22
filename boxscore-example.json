@@ -302,7 +302,7 @@
        "plate_appearances": 5,
        "singles": 2,
        "doubles": 0,
-       "triples": 0,
+       "triples": 1,
        "home_runs": 0,
        "sac_flies": 0,
        "sac_hits": 0,
@@ -1599,7 +1599,7 @@
      "duration": "4:33",
      "status": "completed",
      "season_type": "regular",
-     "start_date_time": "2015-07-23T13:08:00-04:00" },
+     "start_date_time": "2015-07-21T13:08:00-04:00" },
   "away_batter_totals":
    { "sacrifices": 3,
      "at_bats": 41,
