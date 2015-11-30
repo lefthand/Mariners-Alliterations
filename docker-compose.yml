@@ -1,6 +1,6 @@
 alliterations:
   build: .
-  command: ./node_modules/.bin/nodemon ./bin/www
+  command: ./node_modules/.bin/nodemon ./bin/www -L
   ports:
    - "3100:3000"
   volumes:
