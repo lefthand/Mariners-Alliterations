@@ -8,6 +8,7 @@ var Q = require("q");
 function findGames() {
   var deferred = Q.defer();
   redis.hkeys("games", function (err, games) {
+    console.log('We found a game! ' + games);
     deferred.resolve(games);
   });
   return deferred.promise;
@@ -16,6 +17,7 @@ function findGames() {
 function processGame(game) {
   var deferred = Q.defer();
   var game_date = moment(game);
+  return deferred.promise;
   if (moment().diff(game_date, 'hours') >= 2) {
     // If the hash doesn't exist, we'd never resolve the promise.
     redis.hget("games", game, function (err, game_id) {

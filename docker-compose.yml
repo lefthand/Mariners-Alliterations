@@ -1,18 +1,26 @@
-alliterations:
-  build: .
-  command: ./node_modules/.bin/nodemon ./bin/www -L
-  ports:
-   - "3100:3000"
-  volumes:
-   - .:/src
-  links:
-   - redis
-  env_file: web.env
-redis:
-  image: redis
-nginx:
-  image: jwilder/nginx-proxy
-  ports:
-    - "80:80"
-  volumes:
-    - /var/run/docker.sock:/tmp/docker.sock:ro
+version: "2"
+
+services:
+  alliterations:
+    build: .
+    command: ./node_modules/.bin/nodemon ./bin/www -L
+    ports:
+     - "3100:3000"
+    volumes:
+     - .:/src
+    links:
+     - redis
+    env_file: web.env
+  redis:
+    image: redis
+  nginx:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+  rcli:
+    image: redis
+    links:
+      - redis
+    command: redis-cli -h redis

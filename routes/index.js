@@ -3,7 +3,7 @@ var router = express.Router();
 var posts = require("../lib/posts.js");
 var redis = require("../lib/redis.js");
 var passport = require('../lib/passport.js');
-var test = require("../lib/test.js");
+//var test = require("../lib/test.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -26,6 +26,7 @@ router.get('/admin', function(req, res, next) {
   }
 });
 
+/*
 router.get('/test', function(req, res, next) {
   test.run_test();
   if (req.session.passport) {
@@ -35,6 +36,7 @@ router.get('/test', function(req, res, next) {
     res.redirect('/login');
   }
 });
+*/
 
 
 router.get('/login', function(req, res, next) {

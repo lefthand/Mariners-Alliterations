@@ -1,0 +1,3913 @@
+{
+  "subject": "game_events",
+  "copyright": "Copyright 2016 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "data": {
+    "game": {
+      "inning": [
+      {
+        "num": "1",
+        "bottom": {
+          "action": {
+            "home_team_runs": "0",
+            "des": "Injury Delay.  ",
+            "b": "3",
+            "player": "606466",
+            "event_num": "48",
+            "o": "0",
+            "des_es": "Demora por Lesi&#243;n",
+            "event_es": "Aviso en el Juego",
+            "s": "2",
+            "event": "Game Advisory",
+            "tfs": "202549",
+            "away_team_runs": "0",
+            "tfs_zulu": "2016-05-15T20:25:49Z",
+            "pitch": "7"
+          },
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Norichika Aoki hit by pitch.  ",
+            "b": "3",
+            "event_num": "47",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "0",
+            "batter": "493114",
+            "des_es": "Norichika Aoki golpeado por lanzamiento.  ",
+            "event_es": "Pelotazo",
+            "num": "6",
+            "start_tfs_zulu": "2016-05-15T20:23:46Z",
+            "s": "2",
+            "event": "Hit By Pitch",
+            "b1": "493114",
+            "play_guid": "8387dea9-726f-45cf-843a-d6ac6c0af49f",
+            "pitch": [
+            {
+              "start_speed": "92.6",
+              "des": "Called Strike",
+              "sv_id": "160515_132713",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "84.0",
+              "des": "Ball",
+              "sv_id": "160515_132726",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "83.0",
+              "des": "Ball",
+              "sv_id": "160515_132739",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.5",
+              "des": "Ball",
+              "sv_id": "160515_132755",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.8",
+              "des": "Swinging Strike",
+              "sv_id": "160515_132810",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "92.5",
+              "des": "Foul",
+              "sv_id": "160515_132825",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.5",
+              "des": "Hit By Pitch",
+              "sv_id": "160515_132844",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Pelotazo"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "202346"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Ketel Marte grounds into a double play, shortstop Gregorio Petit to second baseman Johnny Giavotella to first baseman C.   Cron.   Norichika Aoki out at 2nd.  ",
+            "b": "1",
+            "event_num": "56",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "606466",
+            "des_es": "Ketel Marte batea rodado batea para doble matanza, campo corto Gregorio Petit a segunda base Johnny Giavotella a primera base C.   Cron.   Norichika Aoki a cabo a 2da.  ",
+            "event_es": "Roletazo de Doble Play",
+            "num": "7",
+            "start_tfs_zulu": "2016-05-15T20:27:28Z",
+            "s": "2",
+            "event": "Grounded Into DP",
+            "b1": "",
+            "play_guid": "7c5920bc-86e4-4b11-a2ce-1409f3631d36",
+            "pitch": [
+            {
+              "start_speed": "85.8",
+              "des": "Foul",
+              "sv_id": "160515_133101",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "85.3",
+              "des": "Ball",
+              "sv_id": "160515_133136",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "85.5",
+              "des": "Called Strike",
+              "sv_id": "160515_133202",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "84.1",
+              "des": "In play, out(s)",
+              "sv_id": "160515_133227",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "202728"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Robinson Cano grounds out, shortstop Gregorio Petit to first baseman C.  J.   Cron.  ",
+            "b": "2",
+            "event_num": "65",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "429664",
+            "des_es": "Robinson Cano batea rodado de out, campo corto Gregorio Petit a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "8",
+            "start_tfs_zulu": "2016-05-15T20:29:41Z",
+            "s": "2",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "abf3743c-cfdc-4c09-9df7-e59816f92f53",
+            "pitch": [
+            {
+              "start_speed": "93.6",
+              "des": "Called Strike",
+              "sv_id": "160515_133314",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "78.9",
+              "des": "Ball",
+              "sv_id": "160515_133331",
+              "pitch_type": "SL",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.5",
+              "des": "Foul",
+              "sv_id": "160515_133349",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.6",
+              "des": "Ball",
+              "sv_id": "160515_133414",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "94.3",
+              "des": "Foul",
+              "sv_id": "160515_133449",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.7",
+              "des": "In play, out(s)",
+              "sv_id": "160515_133521",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "202941"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Yunel Escobar singles on a line drive to right fielder Franklin Gutierrez.  ",
+            "b": "0",
+            "event_num": "5",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "0",
+            "batter": "488862",
+            "des_es": "Yunel Escobar pega sencillo con l&#237;nea a jardinero derecho Franklin Gutierrez.  ",
+            "event_es": "Sencillo",
+            "num": "1",
+            "start_tfs_zulu": "2016-05-15T20:10:46Z",
+            "s": "0",
+            "event": "Single",
+            "b1": "488862",
+            "play_guid": "264e50e7-b604-4458-84e0-5a6f16a5a149",
+            "pitch": {
+              "start_speed": "90.9",
+              "des": "In play, no out",
+              "sv_id": "160515_131409",
+              "pitch_type": "FF",
+              "type": "X",
+              "des_es": "En juego, no out"
+            },
+            "away_team_runs": "0",
+            "start_tfs": "201046"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Kole Calhoun walks.   Yunel Escobar to 2nd.  ",
+            "b": "4",
+            "event_num": "17",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "488862",
+            "o": "0",
+            "batter": "594777",
+            "des_es": "Kole Calhoun recibe base por bolas.   Yunel Escobar a 2da.  ",
+            "event_es": "Base por Bolas",
+            "num": "2",
+            "start_tfs_zulu": "2016-05-15T20:11:32Z",
+            "s": "2",
+            "event": "Walk",
+            "b1": "594777",
+            "play_guid": "27ed9c63-a833-45d1-9550-1f240c6750a6",
+            "pitch": [
+            {
+              "start_speed": "90.5",
+              "des": "Ball",
+              "sv_id": "160515_131453",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "85.9",
+              "des": "Foul",
+              "sv_id": "160515_131524",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "91.6",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_131616",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "90.5",
+              "des": "Foul",
+              "sv_id": "160515_131735",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "80.9",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_131826",
+              "pitch_type": "CU",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "92.1",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_131909",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "201132"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Mike Trout strikes out swinging.  ",
+            "b": "2",
+            "event_num": "25",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "545361",
+            "des_es": "Mike Trout se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "3",
+            "start_tfs_zulu": "2016-05-15T20:16:27Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "14da6734-82d8-4a36-84f3-a3d409cc59bb",
+            "pitch": [
+            {
+              "start_speed": "91.2",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_131949",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "90.7",
+              "des": "Foul",
+              "sv_id": "160515_132015",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "86.7",
+              "des": "Foul",
+              "sv_id": "160515_132047",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "87.8",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_132116",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "86.2",
+              "des": "Swinging Strike",
+              "sv_id": "160515_132145",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "201627"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Albert Pujols lines out to left fielder Norichika Aoki.  ",
+            "b": "0",
+            "event_num": "29",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "405395",
+            "des_es": "Albert Pujols batea l&#237;nea de out a jardinero izquierdo Norichika Aoki.  ",
+            "event_es": "L&#237;nea de Out",
+            "num": "4",
+            "start_tfs_zulu": "2016-05-15T20:18:57Z",
+            "s": "0",
+            "event": "Lineout",
+            "b1": "",
+            "play_guid": "0f66e84b-b21e-4e35-8cfe-1e4adb2b4613",
+            "pitch": {
+              "start_speed": "85.2",
+              "des": "In play, out(s)",
+              "sv_id": "160515_132225",
+              "pitch_type": "SL",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            },
+            "away_team_runs": "0",
+            "start_tfs": "201857"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Daniel Nava lines out to pitcher Felix Hernandez.  ",
+            "b": "1",
+            "event_num": "36",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "537953",
+            "des_es": "Daniel Nava batea l&#237;nea de out a lanzador Felix Hernandez.  ",
+            "event_es": "L&#237;nea de Out",
+            "num": "5",
+            "start_tfs_zulu": "2016-05-15T20:19:52Z",
+            "s": "2",
+            "event": "Lineout",
+            "b1": "",
+            "play_guid": "ffaa4e2f-6922-4ef4-a443-9ad94650558b",
+            "pitch": [
+            {
+              "start_speed": "91.0",
+              "des": "Foul",
+              "sv_id": "160515_132318",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "91.2",
+              "des": "Foul Tip",
+              "sv_id": "160515_132345",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul atr&#225;s"
+            },
+            {
+              "start_speed": "90.4",
+              "des": "Ball",
+              "sv_id": "160515_132418",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.4",
+              "des": "In play, out(s)",
+              "sv_id": "160515_132447",
+              "pitch_type": "FF",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "201952"
+          }
+          ]
+        }
+      },
+      {
+        "num": "2",
+        "bottom": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Nelson Cruz grounds out, pitcher Hector Santiago to first baseman C.  J.   Cron.  ",
+            "b": "0",
+            "event_num": "101",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "443558",
+            "des_es": "Nelson Cruz batea rodado de out, lanzador Hector Santiago a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "13",
+            "start_tfs_zulu": "2016-05-15T20:43:18Z",
+            "s": "2",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "3d2236bc-42cb-47f3-8b03-4fbbcc1ec107",
+            "pitch": [
+            {
+              "start_speed": "92.1",
+              "des": "Called Strike",
+              "sv_id": "160515_134645",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "91.4",
+              "des": "Foul Tip",
+              "sv_id": "160515_134657",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul atr&#225;s"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "In play, out(s)",
+              "sv_id": "160515_134715",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "204318"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Chris Iannetta flies out to right fielder Kole Calhoun.  ",
+            "b": "2",
+            "event_num": "109",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "455104",
+            "des_es": "Chris Iannetta batea elevado de out a jardinero derecho Kole Calhoun.  ",
+            "event_es": "Elevado de Out",
+            "num": "14",
+            "start_tfs_zulu": "2016-05-15T20:44:38Z",
+            "s": "2",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "dc8e0f5e-fbac-4b5e-9e14-aabf327deccb",
+            "pitch": [
+            {
+              "start_speed": "91.2",
+              "des": "Ball",
+              "sv_id": "160515_134802",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.8",
+              "des": "Ball",
+              "sv_id": "160515_134814",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Swinging Strike",
+              "sv_id": "160515_134839",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "94.0",
+              "des": "Swinging Strike",
+              "sv_id": "160515_134858",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "94.5",
+              "des": "In play, out(s)",
+              "sv_id": "160515_134918",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "204438"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Kyle Seager strikes out swinging.  ",
+            "b": "2",
+            "event_num": "118",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "572122",
+            "des_es": "Kyle Seager se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "15",
+            "start_tfs_zulu": "2016-05-15T20:46:37Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "bb67d27d-2f39-417a-a1a5-e89566525698",
+            "pitch": [
+            {
+              "start_speed": "87.0",
+              "des": "Ball",
+              "sv_id": "160515_135005",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.0",
+              "des": "Foul",
+              "sv_id": "160515_135021",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.8",
+              "des": "Foul",
+              "sv_id": "160515_135044",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.7",
+              "des": "Ball",
+              "sv_id": "160515_135126",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.4",
+              "des": "Foul",
+              "sv_id": "160515_135146",
+              "pitch_type": "FC",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.9",
+              "des": "Swinging Strike",
+              "sv_id": "160515_135207",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "204637"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "C.  J.   Cron pops out to first baseman Dae-Ho Lee.  ",
+            "b": "0",
+            "event_num": "70",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "543068",
+            "des_es": "C.  J.   Cron batea elevadito de out a primera base Dae-Ho Lee.  ",
+            "event_es": "Elevado de Out",
+            "num": "9",
+            "start_tfs_zulu": "2016-05-15T20:34:25Z",
+            "s": "0",
+            "event": "Pop Out",
+            "b1": "",
+            "play_guid": "83ad7eae-dc8f-4897-9f69-ff9873c6be2f",
+            "pitch": {
+              "start_speed": "90.1",
+              "des": "In play, out(s)",
+              "sv_id": "160515_133747",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            },
+            "away_team_runs": "0",
+            "start_tfs": "203425"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Geovany Soto singles on a line drive to left fielder Norichika Aoki, deflected by shortstop Ketel Marte.  ",
+            "b": "0",
+            "event_num": "75",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "434567",
+            "des_es": "Geovany Soto pega sencillo con l&#237;nea a jardinero izquierdo Norichika Aoki, desviada por campo corto Ketel Marte.  ",
+            "event_es": "Sencillo",
+            "num": "10",
+            "start_tfs_zulu": "2016-05-15T20:35:08Z",
+            "s": "1",
+            "event": "Single",
+            "b1": "434567",
+            "play_guid": "5f693969-a86f-4887-8e49-cadea07e6ace",
+            "pitch": [
+            {
+              "start_speed": "89.9",
+              "des": "Called Strike",
+              "sv_id": "160515_133830",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "78.8",
+              "des": "In play, no out",
+              "sv_id": "160515_133843",
+              "pitch_type": "CU",
+              "type": "X",
+              "des_es": "En juego, no out"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "203508"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Johnny Giavotella singles on a line drive to center fielder Shawn O'Malley.   Geovany Soto to 3rd.  ",
+            "b": "3",
+            "event_num": "87",
+            "b3": "434567",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "543213",
+            "des_es": "Johnny Giavotella pega sencillo con l&#237;nea a jardinero central Shawn O'Malley.   Geovany Soto a 3ra.  ",
+            "event_es": "Sencillo",
+            "num": "11",
+            "start_tfs_zulu": "2016-05-15T20:36:04Z",
+            "s": "2",
+            "event": "Single",
+            "b1": "543213",
+            "play_guid": "52c3fb46-b9b6-4f8e-a85c-5ec7c2041a09",
+            "pitch": [
+            {
+              "start_speed": "90.3",
+              "des": "Ball",
+              "sv_id": "160515_133929",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "91.4",
+              "des": "Ball",
+              "sv_id": "160515_133958",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.6",
+              "des": "Ball",
+              "sv_id": "160515_134028",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "89.7",
+              "des": "Called Strike",
+              "sv_id": "160515_134052",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "91.3",
+              "des": "Called Strike",
+              "sv_id": "160515_134120",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.9",
+              "des": "Foul (Runner Going)",
+              "sv_id": "160515_134154",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul (Corredor en movimiento)"
+            },
+            {
+              "start_speed": "90.3",
+              "des": "In play, no out",
+              "sv_id": "160515_134230",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, no out"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "203604"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Gregorio Petit grounds into a double play, third baseman Kyle Seager to second baseman Robinson Cano to first baseman Dae-Ho Lee.   Johnny Giavotella out at 2nd.  ",
+            "b": "0",
+            "event_num": "93",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "463610",
+            "des_es": "Gregorio Petit batea rodado batea para doble matanza, tercera base Kyle Seager a segunda base Robinson Cano a primera base Dae-Ho Lee.   Johnny Giavotella a cabo a 2da.  ",
+            "event_es": "Roletazo de Doble Play",
+            "num": "12",
+            "start_tfs_zulu": "2016-05-15T20:40:02Z",
+            "s": "1",
+            "event": "Grounded Into DP",
+            "b1": "",
+            "play_guid": "20cc1db5-5d84-46d4-809a-b788c07d7a7f",
+            "pitch": [
+            {
+              "start_speed": "89.8",
+              "des": "Foul Bunt",
+              "sv_id": "160515_134334",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Toque de foul"
+            },
+            {
+              "start_speed": "88.3",
+              "des": "In play, out(s)",
+              "sv_id": "160515_134411",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "204002"
+          }
+          ]
+        }
+      },
+      {
+        "num": "3",
+        "bottom": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Dae-Ho Lee called out on strikes.  ",
+            "b": "0",
+            "event_num": "157",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "493193",
+            "des_es": "Dae-Ho Lee se poncha sin tirarle.  ",
+            "event_es": "Ponche",
+            "num": "20",
+            "start_tfs_zulu": "2016-05-15T21:02:26Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "e0b075e1-58a0-4957-9f2c-e06a3c8b9871",
+            "pitch": [
+            {
+              "start_speed": "91.5",
+              "des": "Foul",
+              "sv_id": "160515_140550",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "91.1",
+              "des": "Called Strike",
+              "sv_id": "160515_140610",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "92.7",
+              "des": "Called Strike",
+              "sv_id": "160515_140629",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "210226"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Franklin Gutierrez pops out to first baseman C.  J.   Cron in foul territory.  ",
+            "b": "1",
+            "event_num": "163",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "429711",
+            "des_es": "Franklin Gutierrez batea elevadito de out a primera base C.  J.   Cron en territorio de foul.  ",
+            "event_es": "Elevado de Out",
+            "num": "21",
+            "start_tfs_zulu": "2016-05-15T21:03:43Z",
+            "s": "1",
+            "event": "Pop Out",
+            "b1": "",
+            "play_guid": "a474fbca-2b5b-485c-8b7e-814d32cc6d89",
+            "pitch": [
+            {
+              "start_speed": "85.7",
+              "des": "Ball",
+              "sv_id": "160515_140705",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.0",
+              "des": "Foul",
+              "sv_id": "160515_140722",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "92.9",
+              "des": "In play, out(s)",
+              "sv_id": "160515_140749",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "210343"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Shawn O'Malley called out on strikes.  ",
+            "b": "3",
+            "event_num": "173",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "502523",
+            "des_es": "Shawn O'Malley se poncha sin tirarle.  ",
+            "event_es": "Ponche",
+            "num": "22",
+            "start_tfs_zulu": "2016-05-15T21:05:07Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "8d7eea3c-d7b8-4cbc-a477-6197a8b24d0c",
+            "pitch": [
+            {
+              "start_speed": "85.9",
+              "des": "Called Strike",
+              "sv_id": "160515_140835",
+              "pitch_type": "FC",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "76.5",
+              "des": "Called Strike",
+              "sv_id": "160515_140849",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "93.4",
+              "des": "Foul",
+              "sv_id": "160515_140904",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "86.2",
+              "des": "Ball",
+              "sv_id": "160515_140928",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "87.0",
+              "des": "Ball",
+              "sv_id": "160515_140952",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.7",
+              "des": "Ball",
+              "sv_id": "160515_141010",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.4",
+              "des": "Called Strike",
+              "sv_id": "160515_141032",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "210507"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Yunel Escobar strikes out swinging.  ",
+            "b": "2",
+            "event_num": "127",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "488862",
+            "des_es": "Yunel Escobar se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "16",
+            "start_tfs_zulu": "2016-05-15T20:51:11Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "bf1c7a32-f364-4d93-a81d-1bb156d70c02",
+            "pitch": [
+            {
+              "start_speed": "89.2",
+              "des": "Called Strike",
+              "sv_id": "160515_135433",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "86.7",
+              "des": "Ball",
+              "sv_id": "160515_135450",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.2",
+              "des": "Foul",
+              "sv_id": "160515_135508",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "88.0",
+              "des": "Ball",
+              "sv_id": "160515_135530",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.5",
+              "des": "Swinging Strike",
+              "sv_id": "160515_135555",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "205111"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Kole Calhoun strikes out swinging.  ",
+            "b": "1",
+            "event_num": "135",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "594777",
+            "des_es": "Kole Calhoun se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "17",
+            "start_tfs_zulu": "2016-05-15T20:53:09Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "50cd9394-839b-4cd4-9c09-52251ef9fd88",
+            "pitch": [
+            {
+              "start_speed": "90.8",
+              "des": "Ball",
+              "sv_id": "160515_135633",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.3",
+              "des": "Foul",
+              "sv_id": "160515_135654",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "91.2",
+              "des": "Called Strike",
+              "sv_id": "160515_135725",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.7",
+              "des": "Foul",
+              "sv_id": "160515_135746",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "81.0",
+              "des": "Swinging Strike (Blocked)",
+              "sv_id": "160515_135815",
+              "pitch_type": "CU",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole (Bloqueado)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "205309"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Mike Trout singles on a line drive to right fielder Franklin Gutierrez.  ",
+            "b": "0",
+            "event_num": "139",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "545361",
+            "des_es": "Mike Trout pega sencillo con l&#237;nea a jardinero derecho Franklin Gutierrez.  ",
+            "event_es": "Sencillo",
+            "num": "18",
+            "start_tfs_zulu": "2016-05-15T20:55:31Z",
+            "s": "0",
+            "event": "Single",
+            "b1": "545361",
+            "play_guid": "8650799b-45a8-4720-ba1d-14a94431159d",
+            "pitch": {
+              "start_speed": "91.4",
+              "des": "In play, no out",
+              "sv_id": "160515_135852",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, no out"
+            },
+            "away_team_runs": "0",
+            "start_tfs": "205531"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Albert Pujols strikes out swinging.  ",
+            "b": "1",
+            "event_num": "149",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "405395",
+            "des_es": "Albert Pujols se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "19",
+            "start_tfs_zulu": "2016-05-15T20:56:08Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "f0b3d3ac-db19-4024-9d4a-3da4a75fd342",
+            "pitch": [
+            {
+              "start_speed": "90.2",
+              "des": "Called Strike",
+              "sv_id": "160515_135942",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "87.3",
+              "des": "Foul",
+              "sv_id": "160515_140043",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "86.5",
+              "des": "Foul",
+              "sv_id": "160515_140128",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "88.2",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_140209",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "87.5",
+              "des": "Foul",
+              "sv_id": "160515_140242",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "80.5",
+              "des": "Swinging Strike (Blocked)",
+              "sv_id": "160515_140320",
+              "pitch_type": "CU",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole (Bloqueado)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "205608"
+          }
+          ]
+        }
+      },
+      {
+        "num": "4",
+        "bottom": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Norichika Aoki grounds out, third baseman Yunel Escobar to first baseman C.  J.   Cron.  ",
+            "b": "3",
+            "event_num": "208",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "493114",
+            "des_es": "Norichika Aoki batea rodado de out, tercera base Yunel Escobar a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "26",
+            "start_tfs_zulu": "2016-05-15T21:16:51Z",
+            "s": "2",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "f58d2601-d3e0-446c-994b-f627b472553c",
+            "pitch": [
+            {
+              "start_speed": "80.5",
+              "des": "Called Strike",
+              "sv_id": "160515_142018",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "77.9",
+              "des": "Ball",
+              "sv_id": "160515_142036",
+              "pitch_type": "SL",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.0",
+              "des": "Ball",
+              "sv_id": "160515_142053",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "91.2",
+              "des": "Foul",
+              "sv_id": "160515_142110",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.5",
+              "des": "Foul",
+              "sv_id": "160515_142133",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "85.7",
+              "des": "Ball",
+              "sv_id": "160515_142156",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Foul",
+              "sv_id": "160515_142216",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "In play, out(s)",
+              "sv_id": "160515_142237",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "211651"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Ketel Marte grounds out softly, pitcher Hector Santiago to first baseman C.  J.   Cron.  ",
+            "b": "0",
+            "event_num": "212",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "606466",
+            "des_es": "Ketel Marte batea rodado de out suavemente, lanzador Hector Santiago a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "27",
+            "start_tfs_zulu": "2016-05-15T21:19:50Z",
+            "s": "0",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "28cfb220-9739-45a4-88a7-a0c87070c332",
+            "pitch": {
+              "start_speed": "84.1",
+              "des": "In play, out(s)",
+              "sv_id": "160515_142317",
+              "pitch_type": "FC",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            },
+            "away_team_runs": "0",
+            "start_tfs": "211950"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Robinson Cano walks.  ",
+            "b": "4",
+            "event_num": "220",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "429664",
+            "des_es": "Robinson Cano recibe base por bolas.  ",
+            "event_es": "Base por Bolas",
+            "num": "28",
+            "start_tfs_zulu": "2016-05-15T21:21:01Z",
+            "s": "1",
+            "event": "Walk",
+            "b1": "429664",
+            "play_guid": "bab50f09-a0f8-4df1-8fb7-8e92a971233e",
+            "pitch": [
+            {
+              "start_speed": "84.7",
+              "des": "Called Strike",
+              "sv_id": "160515_142427",
+              "pitch_type": "FC",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Ball",
+              "sv_id": "160515_142447",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "85.4",
+              "des": "Ball",
+              "sv_id": "160515_142511",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.9",
+              "des": "Ball",
+              "sv_id": "160515_142530",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.0",
+              "des": "Ball",
+              "sv_id": "160515_142559",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "212101"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Nelson Cruz hit by pitch.    Robinson Cano to 2nd.  ",
+            "b": "3",
+            "event_num": "228",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "429664",
+            "o": "2",
+            "batter": "443558",
+            "des_es": "Nelson Cruz golpeado por lanzamiento.   Robinson Cano a 2da.  ",
+            "event_es": "Pelotazo",
+            "num": "29",
+            "start_tfs_zulu": "2016-05-15T21:23:15Z",
+            "s": "1",
+            "event": "Hit By Pitch",
+            "b1": "443558",
+            "play_guid": "eccc0451-ece4-4d74-9918-9e8b9d29c596",
+            "pitch": [
+            {
+              "start_speed": "92.8",
+              "des": "Ball",
+              "sv_id": "160515_142645",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.8",
+              "des": "Ball",
+              "sv_id": "160515_142716",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Swinging Strike",
+              "sv_id": "160515_142818",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "94.1",
+              "des": "Ball",
+              "sv_id": "160515_142844",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.9",
+              "des": "Hit By Pitch",
+              "sv_id": "160515_142914",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Pelotazo"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "212315"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Chris Iannetta grounds into a force out, fielded by third baseman Yunel Escobar.   Robinson Cano out at 3rd.  ",
+            "b": "2",
+            "event_num": "237",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "455104",
+            "des_es": "Chris Iannetta batea rodado batea para out forzado, fildeado por tercera base Yunel Escobar.   Robinson Cano a cabo a 3ra.  ",
+            "event_es": "Out Forzado",
+            "num": "30",
+            "start_tfs_zulu": "2016-05-15T21:26:40Z",
+            "s": "1",
+            "event": "Forceout",
+            "b1": "",
+            "play_guid": "fd49dd6f-ea33-49cd-9efa-fbddb00b62b9",
+            "pitch": [
+            {
+              "start_speed": "92.6",
+              "des": "Swinging Strike",
+              "sv_id": "160515_143005",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "94.0",
+              "des": "Ball",
+              "sv_id": "160515_143032",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.7",
+              "des": "Ball",
+              "sv_id": "160515_143056",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.4",
+              "des": "In play, out(s)",
+              "sv_id": "160515_143122",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "212640"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Daniel Nava strikes out swinging.  ",
+            "b": "0",
+            "event_num": "180",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "537953",
+            "des_es": "Daniel Nava se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "23",
+            "start_tfs_zulu": "2016-05-15T21:09:41Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "132ef26d-5c0b-4fdf-8fbd-7946647fcc48",
+            "pitch": [
+            {
+              "start_speed": "90.0",
+              "des": "Called Strike",
+              "sv_id": "160515_141301",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.4",
+              "des": "Foul",
+              "sv_id": "160515_141320",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "88.1",
+              "des": "Swinging Strike",
+              "sv_id": "160515_141346",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "210941"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "C.  J.   Cron called out on strikes.  ",
+            "b": "3",
+            "event_num": "189",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "543068",
+            "des_es": "C.  J.   Cron se poncha sin tirarle.  ",
+            "event_es": "Ponche",
+            "num": "24",
+            "start_tfs_zulu": "2016-05-15T21:10:58Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "75a5f849-6469-4d22-8b44-ed7f02c9d7eb",
+            "pitch": [
+            {
+              "start_speed": "91.5",
+              "des": "Ball",
+              "sv_id": "160515_141421",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.6",
+              "des": "Ball",
+              "sv_id": "160515_141437",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "87.3",
+              "des": "Ball",
+              "sv_id": "160515_141457",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.3",
+              "des": "Called Strike",
+              "sv_id": "160515_141516",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.9",
+              "des": "Called Strike",
+              "sv_id": "160515_141531",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.7",
+              "des": "Called Strike",
+              "sv_id": "160515_141552",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "211058"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Geovany Soto strikes out swinging.  ",
+            "b": "1",
+            "event_num": "196",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "434567",
+            "des_es": "Geovany Soto se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "25",
+            "start_tfs_zulu": "2016-05-15T21:13:04Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "560496d1-3a79-4ee3-a3d1-5ba7497d630d",
+            "pitch": [
+            {
+              "start_speed": "91.0",
+              "des": "Called Strike",
+              "sv_id": "160515_141626",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "88.2",
+              "des": "Ball",
+              "sv_id": "160515_141642",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.0",
+              "des": "Foul Tip",
+              "sv_id": "160515_141716",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul atr&#225;s"
+            },
+            {
+              "start_speed": "88.2",
+              "des": "Swinging Strike",
+              "sv_id": "160515_141740",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "211304"
+          }
+          ]
+        }
+      },
+      {
+        "num": "5",
+        "bottom": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Kyle Seager pops out to third baseman Yunel Escobar.  ",
+            "b": "0",
+            "event_num": "283",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "572122",
+            "des_es": "Kyle Seager batea elevadito de out a tercera base Yunel Escobar.  ",
+            "event_es": "Elevado de Out",
+            "num": "36",
+            "start_tfs_zulu": "2016-05-15T21:43:50Z",
+            "s": "0",
+            "event": "Pop Out",
+            "b1": "",
+            "play_guid": "2314b39e-8063-4773-842f-b641cdb31064",
+            "pitch": {
+              "start_speed": "83.5",
+              "des": "In play, out(s)",
+              "sv_id": "160515_144718",
+              "pitch_type": "FC",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            },
+            "away_team_runs": "1",
+            "start_tfs": "214350"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Dae-Ho Lee flies out to right fielder Kole Calhoun.  ",
+            "b": "1",
+            "event_num": "290",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "493193",
+            "des_es": "Dae-Ho Lee batea elevado de out a jardinero derecho Kole Calhoun.  ",
+            "event_es": "Elevado de Out",
+            "num": "37",
+            "start_tfs_zulu": "2016-05-15T21:44:32Z",
+            "s": "2",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "0a15ba34-e7ec-4e6b-a3c0-c6640c9960a0",
+            "pitch": [
+            {
+              "start_speed": "91.7",
+              "des": "Called Strike",
+              "sv_id": "160515_144755",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "85.2",
+              "des": "Ball",
+              "sv_id": "160515_144809",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "91.7",
+              "des": "Foul",
+              "sv_id": "160515_144823",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "In play, out(s)",
+              "sv_id": "160515_144849",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "214432"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Franklin Gutierrez grounds out, shortstop Gregorio Petit to first baseman C.  J.   Cron.  ",
+            "b": "3",
+            "event_num": "301",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "429711",
+            "des_es": "Franklin Gutierrez batea rodado de out, campo corto Gregorio Petit a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "38",
+            "start_tfs_zulu": "2016-05-15T21:46:04Z",
+            "s": "2",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "16c123a9-ee22-4c9c-913d-809c004d0f60",
+            "pitch": [
+            {
+              "start_speed": "92.1",
+              "des": "Ball",
+              "sv_id": "160515_144929",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "86.1",
+              "des": "Called Strike",
+              "sv_id": "160515_144949",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "84.2",
+              "des": "Ball",
+              "sv_id": "160515_145006",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "93.1",
+              "des": "Foul",
+              "sv_id": "160515_145033",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.3",
+              "des": "Foul",
+              "sv_id": "160515_145103",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "94.3",
+              "des": "Foul",
+              "sv_id": "160515_145151",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "85.0",
+              "des": "Ball",
+              "sv_id": "160515_145234",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_145256",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "214604"
+          }
+          ]
+        },
+        "top": {
+          "action": {
+            "home_team_runs": "0",
+            "des": "On-field Delay.  ",
+            "b": "2",
+            "player": "488862",
+            "event_num": "253",
+            "o": "1",
+            "des_es": "Retraso en el Terreno",
+            "event_es": "Aviso en el Juego",
+            "s": "3",
+            "event": "Game Advisory",
+            "tfs": "213449",
+            "away_team_runs": "0",
+            "tfs_zulu": "2016-05-15T21:34:49Z",
+            "pitch": "5"
+          },
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Johnny Giavotella doubles (4) on a line drive to center fielder Shawn O'Malley.  ",
+            "b": "1",
+            "event_num": "244",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "543213",
+            "o": "0",
+            "batter": "543213",
+            "des_es": "Johnny Giavotella pega doble (4) con l&#237;nea a jardinero central Shawn O'Malley.  ",
+            "event_es": "Doble",
+            "num": "31",
+            "start_tfs_zulu": "2016-05-15T21:30:31Z",
+            "s": "0",
+            "event": "Double",
+            "b1": "",
+            "play_guid": "6435abbd-c229-4c93-95c9-4b836f626874",
+            "pitch": [
+            {
+              "start_speed": "88.9",
+              "des": "Ball",
+              "sv_id": "160515_143400",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.1",
+              "des": "In play, no out",
+              "sv_id": "160515_143416",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, no out"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "213031"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Gregorio Petit strikes out swinging.  ",
+            "b": "2",
+            "event_num": "252",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "463610",
+            "des_es": "Gregorio Petit se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "32",
+            "start_tfs_zulu": "2016-05-15T21:31:52Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "47cefdb7-5f0f-43a1-9ca4-07b82a174ab6",
+            "pitch": [
+            {
+              "start_speed": "77.6",
+              "des": "Foul Bunt",
+              "sv_id": "160515_143516",
+              "pitch_type": "CU",
+              "type": "S",
+              "des_es": "Toque de foul"
+            },
+            {
+              "start_speed": "86.9",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_143548",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "88.8",
+              "des": "Ball",
+              "sv_id": "160515_143638",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.8",
+              "des": "Foul Bunt",
+              "sv_id": "160515_143705",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Toque de foul"
+            },
+            {
+              "start_speed": "87.6",
+              "des": "Swinging Strike",
+              "sv_id": "160515_143739",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "213152"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Yunel Escobar called out on strikes.  ",
+            "b": "3",
+            "event_num": "262",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "488862",
+            "des_es": "Yunel Escobar se poncha sin tirarle.  ",
+            "event_es": "Ponche",
+            "num": "33",
+            "start_tfs_zulu": "2016-05-15T21:35:16Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "07d309b1-dc10-495a-b3ae-29379dffd951",
+            "pitch": [
+            {
+              "start_speed": "87.3",
+              "des": "Swinging Strike",
+              "sv_id": "160515_143840",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "84.7",
+              "des": "Ball",
+              "sv_id": "160515_143907",
+              "pitch_type": "SL",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "87.3",
+              "des": "Swinging Strike",
+              "sv_id": "160515_143930",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "87.7",
+              "des": "Ball",
+              "sv_id": "160515_143959",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.3",
+              "des": "Ball",
+              "sv_id": "160515_144029",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.9",
+              "des": "Called Strike",
+              "sv_id": "160515_144058",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            }
+            ],
+              "away_team_runs": "0",
+              "start_tfs": "213516"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Kole Calhoun singles on a ground ball to left fielder Norichika Aoki.   Johnny Giavotella scores.  ",
+            "b": "0",
+            "event_num": "268",
+            "b3": "",
+            "score": "T",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "594777",
+            "des_es": "Kole Calhoun pega sencillo con rodado a jardinero izquierdo Norichika Aoki.   Johnny Giavotella anota.  ",
+            "rbi": "1",
+            "event_es": "Sencillo",
+            "num": "34",
+            "start_tfs_zulu": "2016-05-15T21:38:18Z",
+            "s": "0",
+            "event": "Single",
+            "b1": "594777",
+            "play_guid": "7628ef58-4762-433a-a509-08f5190836c7",
+            "pitch": {
+              "start_speed": "90.9",
+              "des": "In play, run(s)",
+              "sv_id": "160515_144213",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, carrera(s)"
+            },
+            "away_team_runs": "1",
+            "start_tfs": "213818"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Mike Trout grounds into a force out, third baseman Kyle Seager to second baseman Robinson Cano.   Kole Calhoun out at 2nd.  ",
+            "b": "2",
+            "event_num": "277",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "545361",
+            "des_es": "Mike Trout batea rodado batea para out forzado, tercera base Kyle Seager a segunda base Robinson Cano.   Kole Calhoun a cabo a 2da.  ",
+            "event_es": "Out Forzado",
+            "num": "35",
+            "start_tfs_zulu": "2016-05-15T21:39:38Z",
+            "s": "2",
+            "event": "Forceout",
+            "b1": "",
+            "play_guid": "b368b1b1-01d0-4410-99de-3183b5504c23",
+            "pitch": [
+            {
+              "start_speed": "91.1",
+              "des": "Ball",
+              "sv_id": "160515_144302",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.0",
+              "des": "Swinging Strike",
+              "sv_id": "160515_144323",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "90.5",
+              "des": "Foul",
+              "sv_id": "160515_144348",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "88.2",
+              "des": "Ball In Dirt",
+              "sv_id": "160515_144419",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola por el suelo"
+            },
+            {
+              "start_speed": "88.0",
+              "des": "In play, out(s)",
+              "sv_id": "160515_144451",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "213938"
+          }
+          ]
+        }
+      },
+      {
+        "num": "6",
+        "bottom": {
+          "action": {
+            "home_team_runs": "0",
+            "des": "With Ketel Marte batting, Norichika Aoki picked off and caught stealing 2nd base, pitcher Hector Santiago to first baseman C.  J.   Cron to shortstop Gregorio Petit to first baseman C.  ",
+            "b": "0",
+            "player": "493114",
+            "event_num": "338",
+            "o": "2",
+            "des_es": "Con Ketel Marte bateando, Norichika Aoki sorprendido fuera de base y atrapado robando la 2da base, lanzador Hector Santiago a primera base C.  J.   Cron a campo corto Gregorio Petit a primera base C.  ",
+            "event_es": "Retirado en Viraje en Intento de Robo 2B",
+            "s": "0",
+            "event": "Picked off stealing 2B",
+            "tfs": "220203",
+            "away_team_runs": "1",
+            "tfs_zulu": "2016-05-15T22:02:03Z",
+            "pitch": "0"
+          },
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Shawn O'Malley singles on a bunt ground ball to pitcher Hector Santiago.  ",
+            "b": "0",
+            "event_num": "325",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "0",
+            "batter": "502523",
+            "des_es": "Shawn O'Malley pega sencillo con rodado con toque a lanzador Hector Santiago.  ",
+            "event_es": "Sencillo",
+            "num": "42",
+            "start_tfs_zulu": "2016-05-15T21:57:42Z",
+            "s": "0",
+            "event": "Single",
+            "b1": "502523",
+            "play_guid": "498cf6e8-373d-44a7-bb8c-4e4760f381bc",
+            "pitch": {
+              "start_speed": "90.4",
+              "des": "In play, no out",
+              "sv_id": "160515_150106",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, no out"
+            },
+            "away_team_runs": "1",
+            "start_tfs": "215742"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Norichika Aoki grounds into a force out, second baseman Johnny Giavotella to shortstop Gregorio Petit.   Shawn O'Malley out at 2nd.    Norichika Aoki to 1st.  ",
+            "b": "0",
+            "event_num": "332",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "493114",
+            "des_es": "Norichika Aoki batea rodado batea para out forzado, segunda base Johnny Giavotella a campo corto Gregorio Petit.   Shawn O'Malley a cabo a 2da.    Norichika Aoki a 1ra.  ",
+            "event_es": "Out Forzado",
+            "num": "43",
+            "start_tfs_zulu": "2016-05-15T21:58:42Z",
+            "s": "2",
+            "event": "Forceout",
+            "b1": "493114",
+            "play_guid": "f4350409-e924-4688-8511-0fad1854e140",
+            "pitch": [
+            {
+              "start_speed": "87.3",
+              "des": "Called Strike",
+              "sv_id": "160515_150206",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "78.7",
+              "des": "Foul",
+              "sv_id": "160515_150232",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "74.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_150303",
+              "pitch_type": "CU",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "215842"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Ketel Marte flies out to right fielder Kole Calhoun.  ",
+            "b": "1",
+            "event_num": "343",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "606466",
+            "des_es": "Ketel Marte batea elevado de out a jardinero derecho Kole Calhoun.  ",
+            "event_es": "Elevado de Out",
+            "num": "44",
+            "start_tfs_zulu": "2016-05-15T22:00:24Z",
+            "s": "1",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "d6469fb8-bdee-494d-98b2-bda0879bab04",
+            "pitch": [
+            {
+              "start_speed": "85.1",
+              "des": "Called Strike",
+              "sv_id": "160515_150534",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "84.9",
+              "des": "Ball",
+              "sv_id": "160515_150549",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "92.2",
+              "des": "In play, out(s)",
+              "sv_id": "160515_150603",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "220024"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Albert Pujols grounds out, third baseman Kyle Seager to first baseman Dae-Ho Lee.  ",
+            "b": "1",
+            "event_num": "308",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "405395",
+            "des_es": "Albert Pujols batea rodado de out, tercera base Kyle Seager a primera base Dae-Ho Lee.  ",
+            "event_es": "Roletazo de Out",
+            "num": "39",
+            "start_tfs_zulu": "2016-05-15T21:52:06Z",
+            "s": "1",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "e2f6c226-60aa-4a86-835f-9c7c52a70670",
+            "pitch": [
+            {
+              "start_speed": "89.4",
+              "des": "Ball",
+              "sv_id": "160515_145526",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "77.3",
+              "des": "Called Strike",
+              "sv_id": "160515_145546",
+              "pitch_type": "CU",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "89.3",
+              "des": "In play, out(s)",
+              "sv_id": "160515_145606",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "215206"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Daniel Nava flies out to left fielder Norichika Aoki.  ",
+            "b": "1",
+            "event_num": "313",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "537953",
+            "des_es": "Daniel Nava batea elevado de out a jardinero izquierdo Norichika Aoki.  ",
+            "event_es": "Elevado de Out",
+            "num": "40",
+            "start_tfs_zulu": "2016-05-15T21:53:24Z",
+            "s": "0",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "a3c06df2-057e-473e-be84-5852798c75cb",
+            "pitch": [
+            {
+              "start_speed": "90.6",
+              "des": "Ball",
+              "sv_id": "160515_145648",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "85.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_145708",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "215324"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "C.  J.   Cron grounds out, third baseman Kyle Seager to first baseman Dae-Ho Lee.  ",
+            "b": "2",
+            "event_num": "320",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "543068",
+            "des_es": "C.  J.   Cron batea rodado de out, tercera base Kyle Seager a primera base Dae-Ho Lee.  ",
+            "event_es": "Roletazo de Out",
+            "num": "41",
+            "start_tfs_zulu": "2016-05-15T21:54:23Z",
+            "s": "1",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "9b094cb8-2a8d-4e27-8531-a9574596d6fc",
+            "pitch": [
+            {
+              "start_speed": "90.6",
+              "des": "Ball",
+              "sv_id": "160515_145744",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "89.8",
+              "des": "Ball",
+              "sv_id": "160515_145758",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.7",
+              "des": "Called Strike",
+              "sv_id": "160515_145818",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "80.4",
+              "des": "In play, out(s)",
+              "sv_id": "160515_145837",
+              "pitch_type": "CU",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "215423"
+          }
+          ]
+        }
+      },
+      {
+        "num": "7",
+        "bottom": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Robinson Cano flies out to left fielder Daniel Nava.  ",
+            "b": "0",
+            "event_num": "365",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "1",
+            "batter": "429664",
+            "des_es": "Robinson Cano batea elevado de out a jardinero izquierdo Daniel Nava.  ",
+            "event_es": "Elevado de Out",
+            "num": "48",
+            "start_tfs_zulu": "2016-05-15T22:11:12Z",
+            "s": "1",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "168d700e-e60c-4959-88ee-74dd93f5f046",
+            "pitch": [
+            {
+              "start_speed": "80.9",
+              "des": "Foul",
+              "sv_id": "160515_151448",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "80.2",
+              "des": "In play, out(s)",
+              "sv_id": "160515_151512",
+              "pitch_type": "SL",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "221112"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Nelson Cruz flies out to right fielder Kole Calhoun.  ",
+            "b": "1",
+            "event_num": "374",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "443558",
+            "des_es": "Nelson Cruz batea elevado de out a jardinero derecho Kole Calhoun.  ",
+            "event_es": "Elevado de Out",
+            "num": "49",
+            "start_tfs_zulu": "2016-05-15T22:12:35Z",
+            "s": "2",
+            "event": "Flyout",
+            "b1": "",
+            "play_guid": "ef03495f-7b65-4b0d-996c-2d266d7e0f9b",
+            "pitch": [
+            {
+              "start_speed": "85.0",
+              "des": "Ball",
+              "sv_id": "160515_151603",
+              "pitch_type": "CH",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "85.7",
+              "des": "Foul",
+              "sv_id": "160515_151617",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.4",
+              "des": "Foul",
+              "sv_id": "160515_151638",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.5",
+              "des": "Foul",
+              "sv_id": "160515_151713",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "76.5",
+              "des": "Foul",
+              "sv_id": "160515_151759",
+              "pitch_type": "CU",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "In play, out(s)",
+              "sv_id": "160515_151822",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "221235"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Chris Iannetta singles on a line drive to center fielder Mike Trout.  ",
+            "b": "0",
+            "event_num": "380",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "2",
+            "batter": "455104",
+            "des_es": "Chris Iannetta pega sencillo con l&#237;nea a jardinero central Mike Trout.  ",
+            "event_es": "Sencillo",
+            "num": "50",
+            "start_tfs_zulu": "2016-05-15T22:15:53Z",
+            "s": "2",
+            "event": "Single",
+            "b1": "455104",
+            "play_guid": "6080cd91-9594-49e3-b711-41891991339a",
+            "pitch": [
+            {
+              "start_speed": "86.4",
+              "des": "Called Strike",
+              "sv_id": "160515_151921",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "81.9",
+              "des": "Swinging Strike",
+              "sv_id": "160515_151940",
+              "pitch_type": "CH",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            },
+            {
+              "start_speed": "83.4",
+              "des": "In play, no out",
+              "sv_id": "160515_152005",
+              "pitch_type": "CH",
+              "type": "X",
+              "des_es": "En juego, no out"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "221553"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Kyle Seager grounds out, pitcher Hector Santiago to shortstop Gregorio Petit to first baseman C.  J.   Cron.  ",
+            "b": "2",
+            "event_num": "390",
+            "b3": "",
+            "pitcher": "502327",
+            "b2": "",
+            "o": "3",
+            "batter": "572122",
+            "des_es": "Kyle Seager batea rodado de out, lanzador Hector Santiago a campo corto Gregorio Petit a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "51",
+            "start_tfs_zulu": "2016-05-15T22:17:34Z",
+            "s": "2",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "7a702610-3f53-4693-92e3-6704d092e06f",
+            "pitch": [
+            {
+              "start_speed": "84.6",
+              "des": "Ball",
+              "sv_id": "160515_152102",
+              "pitch_type": "FC",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "91.5",
+              "des": "Called Strike",
+              "sv_id": "160515_152129",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "90.9",
+              "des": "Ball",
+              "sv_id": "160515_152158",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "84.1",
+              "des": "Foul",
+              "sv_id": "160515_152222",
+              "pitch_type": "FC",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Foul",
+              "sv_id": "160515_152315",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "93.6",
+              "des": "Foul",
+              "sv_id": "160515_152401",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "84.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_152433",
+              "pitch_type": "FC",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "221734"
+          }
+          ]
+        },
+        "top": {
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Geovany Soto lines out to center fielder Shawn O'Malley.  ",
+            "b": "1",
+            "event_num": "349",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "1",
+            "batter": "434567",
+            "des_es": "Geovany Soto batea l&#237;nea de out a jardinero central Shawn O'Malley.  ",
+            "event_es": "L&#237;nea de Out",
+            "num": "45",
+            "start_tfs_zulu": "2016-05-15T22:05:14Z",
+            "s": "0",
+            "event": "Lineout",
+            "b1": "",
+            "play_guid": "9dd90db9-68e7-4c6b-9992-7d45c1bb45d6",
+            "pitch": [
+            {
+              "start_speed": "90.4",
+              "des": "Ball",
+              "sv_id": "160515_150839",
+              "pitch_type": "FF",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "88.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_150854",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "220514"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Johnny Giavotella grounds out, third baseman Kyle Seager to first baseman Dae-Ho Lee.  ",
+            "b": "0",
+            "event_num": "354",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "2",
+            "batter": "543213",
+            "des_es": "Johnny Giavotella batea rodado de out, tercera base Kyle Seager a primera base Dae-Ho Lee.  ",
+            "event_es": "Roletazo de Out",
+            "num": "46",
+            "start_tfs_zulu": "2016-05-15T22:06:09Z",
+            "s": "1",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "cf1a48c2-9661-4197-bd36-9273df4c9f58",
+            "pitch": [
+            {
+              "start_speed": "89.9",
+              "des": "Foul",
+              "sv_id": "160515_150934",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "84.8",
+              "des": "In play, out(s)",
+              "sv_id": "160515_150957",
+              "pitch_type": "SL",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "220609"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Gregorio Petit grounds out, shortstop Ketel Marte to first baseman Dae-Ho Lee.  ",
+            "b": "1",
+            "event_num": "359",
+            "b3": "",
+            "pitcher": "433587",
+            "b2": "",
+            "o": "3",
+            "batter": "463610",
+            "des_es": "Gregorio Petit batea rodado de out, campo corto Ketel Marte a primera base Dae-Ho Lee.  ",
+            "event_es": "Roletazo de Out",
+            "num": "47",
+            "start_tfs_zulu": "2016-05-15T22:07:17Z",
+            "s": "0",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "3c836bc5-a686-4ecd-bf9c-8f54bf9d651a",
+            "pitch": [
+            {
+              "start_speed": "90.1",
+              "des": "Ball",
+              "sv_id": "160515_151040",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "90.0",
+              "des": "In play, out(s)",
+              "sv_id": "160515_151100",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            }
+            ],
+              "away_team_runs": "1",
+              "start_tfs": "220717"
+          }
+          ]
+        }
+      },
+      {
+        "num": "8",
+        "bottom": {
+          "action": [
+          {
+            "home_team_runs": "0",
+            "des": "Shane Robinson remains in the game as the left fielder.  ",
+            "b": "0",
+            "player": "453203",
+            "event_num": "450",
+            "o": "0",
+            "des_es": "Shane Robinson permanece en el juego como el jardinero izquierdo.  ",
+            "event_es": "Cambio Defensivo",
+            "s": "0",
+            "event": "Defensive Switch",
+            "tfs": "224323",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:43:23Z",
+            "pitch": "4"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Defensive Substitution: Brendan Ryan replaces second baseman Johnny Giavotella, batting 8th, playing shortstop.  ",
+            "b": "0",
+            "player": "453895",
+            "event_num": "452",
+            "o": "0",
+            "des_es": "Sustituci&#243;n a la Defensiva: Brendan Ryan reemplaza a segunda base Johnny Giavotella, como octavo bate y jugando en el  campo corto.  ",
+            "event_es": "Sustituci&#243;n Defensiva",
+            "s": "0",
+            "event": "Defensive Sub",
+            "tfs": "224323",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:43:23Z",
+            "pitch": "4"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Defensive switch from shortstop to second base for Gregorio Petit.  ",
+            "b": "0",
+            "player": "463610",
+            "event_num": "454",
+            "o": "0",
+            "des_es": "Sustituci&#243;n a la defensiva de campo corto a segunda base por Gregorio Petit.  ",
+            "event_es": "Cambio Defensivo",
+            "s": "0",
+            "event": "Defensive Switch",
+            "tfs": "224323",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:43:23Z",
+            "pitch": "4"
+          }
+          ],
+            "atbat": [
+            {
+              "home_team_runs": "0",
+              "des": "Dae-Ho Lee grounds out softly, pitcher Hector Santiago to first baseman C.  J.   Cron.  ",
+              "b": "0",
+              "event_num": "459",
+              "b3": "",
+              "pitcher": "502327",
+              "b2": "",
+              "o": "1",
+              "batter": "493193",
+              "des_es": "Dae-Ho Lee batea rodado de out suavemente, lanzador Hector Santiago a primera base C.  J.   Cron.  ",
+              "event_es": "Roletazo de Out",
+              "num": "58",
+              "start_tfs_zulu": "2016-05-15T22:43:28Z",
+              "s": "1",
+              "event": "Groundout",
+              "b1": "",
+              "play_guid": "e471ed46-40e1-4670-a647-683735c23953",
+              "pitch": [
+              {
+                "start_speed": "82.3",
+                "des": "Called Strike",
+                "sv_id": "160515_154655",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "79.2",
+                "des": "In play, out(s)",
+                "sv_id": "160515_154710",
+                "pitch_type": "CH",
+                "type": "X",
+                "des_es": "En juego, out(s)"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "224328"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Franklin Gutierrez strikes out swinging.  ",
+              "b": "1",
+              "event_num": "466",
+              "b3": "",
+              "pitcher": "502327",
+              "b2": "",
+              "o": "2",
+              "batter": "429711",
+              "des_es": "Franklin Gutierrez se poncha tir&#225;ndole.  ",
+              "event_es": "Ponche",
+              "num": "59",
+              "start_tfs_zulu": "2016-05-15T22:44:32Z",
+              "s": "3",
+              "event": "Strikeout",
+              "b1": "",
+              "play_guid": "033a7438-2983-4415-9149-d9ffdeaf4c4f",
+              "pitch": [
+              {
+                "start_speed": "84.4",
+                "des": "Ball",
+                "sv_id": "160515_154756",
+                "pitch_type": "CH",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "82.1",
+                "des": "Swinging Strike",
+                "sv_id": "160515_154814",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "81.3",
+                "des": "Swinging Strike",
+                "sv_id": "160515_154832",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "80.9",
+                "des": "Swinging Strike",
+                "sv_id": "160515_154852",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "224432"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Shawn O'Malley strikes out on a foul tip.  ",
+              "b": "1",
+              "event_num": "473",
+              "b3": "",
+              "pitcher": "502327",
+              "b2": "",
+              "o": "3",
+              "batter": "502523",
+              "des_es": "Shawn O'Malley se poncha con foul tip.  ",
+              "event_es": "Ponche",
+              "num": "60",
+              "start_tfs_zulu": "2016-05-15T22:46:01Z",
+              "s": "3",
+              "event": "Strikeout",
+              "b1": "",
+              "play_guid": "2be12893-1458-468e-8ea1-5a8f8bf0291b",
+              "pitch": [
+              {
+                "start_speed": "82.7",
+                "des": "Foul",
+                "sv_id": "160515_154924",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "81.5",
+                "des": "Ball",
+                "sv_id": "160515_154943",
+                "pitch_type": "CH",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "92.1",
+                "des": "Swinging Strike",
+                "sv_id": "160515_155001",
+                "pitch_type": "SI",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "92.6",
+                "des": "Foul Tip",
+                "sv_id": "160515_155017",
+                "pitch_type": "SI",
+                "type": "S",
+                "des_es": "Foul atr&#225;s"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "224601"
+            }
+          ]
+        },
+        "top": {
+          "action": [
+          {
+            "home_team_runs": "0",
+            "des": "Coaching visit to mound.  ",
+            "b": "0",
+            "player": "405395",
+            "event_num": "413",
+            "o": "1",
+            "des_es": "Visita del Instructor a la Lomita",
+            "event_es": "Aviso en el Juego",
+            "s": "2",
+            "event": "Game Advisory",
+            "tfs": "222952",
+            "away_team_runs": "1",
+            "tfs_zulu": "2016-05-15T22:29:52Z",
+            "pitch": "3"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Pitching Change: Nick Vincent replaces Felix Hernandez.  ",
+            "b": "0",
+            "player": "543883",
+            "event_num": "415",
+            "o": "1",
+            "des_es": "Cambio de Lanzador: Nick Vincent reemplaza a Felix Hernandez.  ",
+            "event_es": "Cambio de Lanzador",
+            "s": "0",
+            "event": "Pitching Substitution",
+            "tfs": "223050",
+            "away_team_runs": "1",
+            "tfs_zulu": "2016-05-15T22:30:50Z",
+            "pitch": "3"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Coaching visit to mound.  ",
+            "b": "0",
+            "player": "537953",
+            "event_num": "423",
+            "o": "2",
+            "des_es": "Visita del Instructor a la Lomita",
+            "event_es": "Aviso en el Juego",
+            "s": "1",
+            "event": "Game Advisory",
+            "tfs": "223422",
+            "away_team_runs": "1",
+            "tfs_zulu": "2016-05-15T22:34:22Z",
+            "pitch": "2"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Offensive Substitution: Pinch-runner Shane Robinson replaces Daniel Nava.  ",
+            "b": "0",
+            "player": "453203",
+            "event_num": "439",
+            "o": "2",
+            "des_es": "Sustituci&#243;n a la ofensiva: corredor emergente Shane Robinson reemplaza a replaces Daniel Nava.  ",
+            "event_es": "Cambio Defensivo",
+            "s": "0",
+            "event": "Offensive Sub",
+            "tfs": "223924",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:39:24Z",
+            "pitch": "6"
+          }
+          ],
+            "atbat": [
+            {
+              "home_team_runs": "0",
+              "des": "Yunel Escobar lines out to shortstop Ketel Marte.  ",
+              "b": "0",
+              "event_num": "396",
+              "b3": "",
+              "pitcher": "433587",
+              "b2": "",
+              "o": "1",
+              "batter": "488862",
+              "des_es": "Yunel Escobar batea l&#237;nea de out a campo corto Ketel Marte.  ",
+              "event_es": "L&#237;nea de Out",
+              "num": "52",
+              "start_tfs_zulu": "2016-05-15T22:24:02Z",
+              "s": "0",
+              "event": "Lineout",
+              "b1": "",
+              "play_guid": "b915cc1b-32f4-48b1-a3a6-fefa739ba940",
+              "pitch": {
+                "start_speed": "85.0",
+                "des": "In play, out(s)",
+                "sv_id": "160515_152732",
+                "pitch_type": "SL",
+                "type": "X",
+                "des_es": "En juego, out(s)"
+              },
+              "away_team_runs": "1",
+              "start_tfs": "222402"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Kole Calhoun walks.  ",
+              "b": "4",
+              "event_num": "405",
+              "b3": "",
+              "pitcher": "433587",
+              "b2": "",
+              "o": "1",
+              "batter": "594777",
+              "des_es": "Kole Calhoun recibe base por bolas.  ",
+              "event_es": "Base por Bolas",
+              "num": "53",
+              "start_tfs_zulu": "2016-05-15T22:24:55Z",
+              "s": "2",
+              "event": "Walk",
+              "b1": "594777",
+              "play_guid": "91296f80-6a22-4b51-9e2b-a56a1aa8376a",
+              "pitch": [
+              {
+                "start_speed": "77.6",
+                "des": "Ball",
+                "sv_id": "160515_152818",
+                "pitch_type": "CU",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "85.2",
+                "des": "Ball",
+                "sv_id": "160515_152841",
+                "pitch_type": "CH",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "89.5",
+                "des": "Ball",
+                "sv_id": "160515_152903",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "89.3",
+                "des": "Called Strike",
+                "sv_id": "160515_152925",
+                "pitch_type": "SI",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "90.2",
+                "des": "Called Strike",
+                "sv_id": "160515_152948",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "80.0",
+                "des": "Ball",
+                "sv_id": "160515_153011",
+                "pitch_type": "CU",
+                "type": "B",
+                "des_es": "Bola mala"
+              }
+              ],
+                "away_team_runs": "1",
+                "start_tfs": "222455"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Mike Trout singles on a sharp ground ball to center fielder Shawn O'Malley.   Kole Calhoun to 2nd.  ",
+              "b": "0",
+              "event_num": "412",
+              "b3": "",
+              "pitcher": "433587",
+              "b2": "594777",
+              "o": "1",
+              "batter": "545361",
+              "des_es": "Mike Trout pega sencillo con rodado fuerte a jardinero central Shawn O'Malley.   Kole Calhoun a 2da.  ",
+              "event_es": "Sencillo",
+              "num": "54",
+              "start_tfs_zulu": "2016-05-15T22:27:27Z",
+              "s": "2",
+              "event": "Single",
+              "b1": "545361",
+              "play_guid": "de8b21f8-0b6d-46d2-ad48-c1d4c9235fc0",
+              "pitch": [
+              {
+                "start_speed": "86.7",
+                "des": "Foul",
+                "sv_id": "160515_153108",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "86.5",
+                "des": "Called Strike",
+                "sv_id": "160515_153201",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "86.8",
+                "des": "In play, no out",
+                "sv_id": "160515_153243",
+                "pitch_type": "CH",
+                "type": "X",
+                "des_es": "En juego, no out"
+              }
+              ],
+                "away_team_runs": "1",
+                "start_tfs": "222727"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Albert Pujols grounds out softly to first baseman Dae-Ho Lee.   Kole Calhoun to 3rd.    Mike Trout to 2nd.  ",
+              "b": "0",
+              "event_num": "422",
+              "b3": "594777",
+              "pitcher": "543883",
+              "b2": "545361",
+              "o": "2",
+              "batter": "405395",
+              "des_es": "Albert Pujols batea rodado de out suavemente a primera base Dae-Ho Lee en jugada de infield fly.   Kole Calhoun a 3ra.    Mike Trout a 2da.  ",
+              "event_es": "Roletazo de Out",
+              "num": "55",
+              "start_tfs_zulu": "2016-05-15T22:33:01Z",
+              "s": "1",
+              "event": "Groundout",
+              "b1": "",
+              "play_guid": "ac779374-e134-44ce-b246-6ec29cf30204",
+              "pitch": [
+              {
+                "start_speed": "88.5",
+                "des": "Called Strike",
+                "sv_id": "160515_153633",
+                "pitch_type": "SL",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "87.4",
+                "des": "In play, out(s)",
+                "sv_id": "160515_153656",
+                "pitch_type": "SL",
+                "type": "X",
+                "des_es": "En juego, out(s)"
+              }
+              ],
+                "away_team_runs": "1",
+                "start_tfs": "223301"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Daniel Nava singles on a ground ball to left fielder Norichika Aoki.   Kole Calhoun scores.    Mike Trout scores.    Daniel Nava to 2nd on the throw.  ",
+              "b": "2",
+              "event_num": "437",
+              "b3": "",
+              "score": "T",
+              "pitcher": "543883",
+              "b2": "537953",
+              "o": "2",
+              "batter": "537953",
+              "des_es": "Daniel Nava pega sencillo con rodado a jardinero izquierdo Norichika Aoki.   Kole Calhoun anota  Mike Trout anota  Daniel Nava a 2da con el tiro.  ",
+              "rbi": "2",
+              "event_es": "Sencillo",
+              "num": "56",
+              "start_tfs_zulu": "2016-05-15T22:35:17Z",
+              "s": "2",
+              "event": "Single",
+              "b1": "",
+              "play_guid": "dc4226dc-0853-4154-8478-3ce51f4fc66e",
+              "pitch": [
+              {
+                "start_speed": "87.8",
+                "des": "Called Strike",
+                "sv_id": "160515_153844",
+                "pitch_type": "SL",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "91.2",
+                "des": "Ball",
+                "sv_id": "160515_153910",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "88.9",
+                "des": "Ball",
+                "sv_id": "160515_153940",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "91.3",
+                "des": "Foul",
+                "sv_id": "160515_154008",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "91.3",
+                "des": "Foul",
+                "sv_id": "160515_154051",
+                "pitch_type": "FT",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "87.8",
+                "des": "In play, run(s)",
+                "sv_id": "160515_154155",
+                "pitch_type": "SL",
+                "type": "X",
+                "des_es": "En juego, carrera(s)"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "223517"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "C.  J.   Cron strikes out on a foul tip.  ",
+              "b": "1",
+              "event_num": "446",
+              "b3": "",
+              "pitcher": "543883",
+              "b2": "",
+              "o": "3",
+              "batter": "543068",
+              "des_es": "C.  J.   Cron se poncha con foul tip.  ",
+              "event_es": "Ponche",
+              "num": "57",
+              "start_tfs_zulu": "2016-05-15T22:39:37Z",
+              "s": "3",
+              "event": "Strikeout",
+              "b1": "",
+              "play_guid": "d6fa219f-fc58-43d6-a34d-fa64d3895183",
+              "pitch": [
+              {
+                "start_speed": "86.9",
+                "des": "Foul",
+                "sv_id": "160515_154258",
+                "pitch_type": "SL",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "90.3",
+                "des": "Ball",
+                "sv_id": "160515_154333",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "91.2",
+                "des": "Swinging Strike",
+                "sv_id": "160515_154356",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "90.6",
+                "des": "Foul Tip",
+                "sv_id": "160515_154424",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul atr&#225;s"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "223937"
+            }
+          ]
+        }
+      },
+      {
+        "num": "9",
+        "bottom": {
+          "action": {
+            "home_team_runs": "0",
+            "des": "Pitching Change: Joe Smith replaces Hector Santiago.  ",
+            "b": "0",
+            "player": "501925",
+            "event_num": "512",
+            "o": "0",
+            "des_es": "Cambio de Lanzador: Joe Smith reemplaza a Hector Santiago.  ",
+            "event_es": "Cambio de Lanzador",
+            "s": "0",
+            "event": "Pitching Substitution",
+            "tfs": "230025",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T23:00:25Z",
+            "pitch": "6"
+          },
+          "atbat": [
+          {
+            "home_team_runs": "0",
+            "des": "Norichika Aoki strikes out on a foul tip.  ",
+            "b": "1",
+            "event_num": "519",
+            "b3": "",
+            "pitcher": "501925",
+            "b2": "",
+            "o": "1",
+            "batter": "493114",
+            "des_es": "Norichika Aoki se poncha con foul tip.  ",
+            "event_es": "Ponche",
+            "num": "65",
+            "start_tfs_zulu": "2016-05-15T23:01:54Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "9bf07ea3-e4a7-437d-8d86-dacbf9f71cea",
+            "pitch": [
+            {
+              "start_speed": "87.7",
+              "des": "Ball",
+              "sv_id": "160515_160518",
+              "pitch_type": "SI",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "86.8",
+              "des": "Called Strike",
+              "sv_id": "160515_160532",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "88.5",
+              "des": "Called Strike",
+              "sv_id": "160515_160549",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "88.4",
+              "des": "Foul Tip",
+              "sv_id": "160515_160605",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul atr&#225;s"
+            }
+            ],
+              "away_team_runs": "3",
+              "start_tfs": "230154"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Ketel Marte strikes out swinging.  ",
+            "b": "1",
+            "event_num": "526",
+            "b3": "",
+            "pitcher": "501925",
+            "b2": "",
+            "o": "2",
+            "batter": "606466",
+            "des_es": "Ketel Marte se poncha tir&#225;ndole.  ",
+            "event_es": "Ponche",
+            "num": "66",
+            "start_tfs_zulu": "2016-05-15T23:03:17Z",
+            "s": "3",
+            "event": "Strikeout",
+            "b1": "",
+            "play_guid": "75d11425-02d3-4195-ba92-e00bbd7a6be5",
+            "pitch": [
+            {
+              "start_speed": "88.1",
+              "des": "Called Strike",
+              "sv_id": "160515_160641",
+              "pitch_type": "FF",
+              "type": "S",
+              "des_es": "Strike cantado"
+            },
+            {
+              "start_speed": "89.4",
+              "des": "Foul",
+              "sv_id": "160515_160653",
+              "pitch_type": "SI",
+              "type": "S",
+              "des_es": "Foul"
+            },
+            {
+              "start_speed": "80.6",
+              "des": "Ball",
+              "sv_id": "160515_160716",
+              "pitch_type": "SL",
+              "type": "B",
+              "des_es": "Bola mala"
+            },
+            {
+              "start_speed": "80.6",
+              "des": "Swinging Strike",
+              "sv_id": "160515_160755",
+              "pitch_type": "SL",
+              "type": "S",
+              "des_es": "Strike tir&#225;ndole"
+            }
+            ],
+              "away_team_runs": "3",
+              "start_tfs": "230317"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Robinson Cano grounds out, second baseman Gregorio Petit to first baseman C.  J.   Cron.  ",
+            "b": "0",
+            "event_num": "530",
+            "b3": "",
+            "pitcher": "501925",
+            "b2": "",
+            "o": "3",
+            "batter": "429664",
+            "des_es": "Robinson Cano batea rodado de out, segunda base Gregorio Petit a primera base C.  J.   Cron.  ",
+            "event_es": "Roletazo de Out",
+            "num": "67",
+            "start_tfs_zulu": "2016-05-15T23:05:12Z",
+            "s": "0",
+            "event": "Groundout",
+            "b1": "",
+            "play_guid": "d7e7758e-a5aa-4027-89a9-e31fa8fcd837",
+            "pitch": {
+              "start_speed": "89.4",
+              "des": "In play, out(s)",
+              "sv_id": "160515_160842",
+              "pitch_type": "SI",
+              "type": "X",
+              "des_es": "En juego, out(s)"
+            },
+            "away_team_runs": "3",
+            "start_tfs": "230512"
+          }
+          ]
+        },
+        "top": {
+          "action": [
+          {
+            "home_team_runs": "0",
+            "des": "Pitching Change: Mike Montgomery replaces Nick Vincent.  ",
+            "b": "0",
+            "player": "543557",
+            "event_num": "476",
+            "o": "0",
+            "des_es": "Cambio de Lanzador: Mike Montgomery reemplaza a Nick Vincent.  ",
+            "event_es": "Cambio de Lanzador",
+            "s": "0",
+            "event": "Pitching Substitution",
+            "tfs": "224820",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:48:20Z",
+            "pitch": "4"
+          },
+          {
+            "home_team_runs": "0",
+            "des": "Injury Delay.  ",
+            "b": "2",
+            "player": "488862",
+            "event_num": "499",
+            "o": "2",
+            "des_es": "Demora por Lesi&#243;n",
+            "event_es": "Aviso en el Juego",
+            "s": "3",
+            "event": "Game Advisory",
+            "tfs": "225512",
+            "away_team_runs": "3",
+            "tfs_zulu": "2016-05-15T22:55:12Z",
+            "pitch": "6"
+          }
+          ],
+            "atbat": [
+            {
+              "home_team_runs": "0",
+              "des": "Geovany Soto singles on a soft line drive to right fielder Franklin Gutierrez.  ",
+              "b": "0",
+              "event_num": "481",
+              "b3": "",
+              "pitcher": "543557",
+              "b2": "",
+              "o": "0",
+              "batter": "434567",
+              "des_es": "Geovany Soto pega sencillo con l&#237;nea suave a jardinero derecho Franklin Gutierrez.  ",
+              "event_es": "Sencillo",
+              "num": "61",
+              "start_tfs_zulu": "2016-05-15T22:49:52Z",
+              "s": "1",
+              "event": "Single",
+              "b1": "434567",
+              "play_guid": "83671abc-0f59-40d5-a5ce-9e8fabff8181",
+              "pitch": [
+              {
+                "start_speed": "95.1",
+                "des": "Swinging Strike",
+                "sv_id": "160515_155314",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "95.6",
+                "des": "In play, no out",
+                "sv_id": "160515_155329",
+                "pitch_type": "FF",
+                "type": "X",
+                "des_es": "En juego, no out"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "224952"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Brendan Ryan out on a sacrifice bunt, third baseman Kyle Seager to first baseman Dae-Ho Lee.   Geovany Soto to 2nd.  ",
+              "b": "2",
+              "event_num": "489",
+              "b3": "",
+              "pitcher": "543557",
+              "b2": "434567",
+              "o": "1",
+              "batter": "453895",
+              "des_es": "Brendan Ryan out en toque de sacrificio, tercera base Kyle Seager a primera base Dae-Ho Lee.   Geovany Soto a 2da.  ",
+              "event_es": "Toque de Sacrificio",
+              "num": "62",
+              "start_tfs_zulu": "2016-05-15T22:50:48Z",
+              "s": "1",
+              "event": "Sac Bunt",
+              "b1": "",
+              "play_guid": "9a20a549-1954-4d1a-b016-04585b08dce8",
+              "pitch": [
+              {
+                "start_speed": "93.9",
+                "des": "Ball",
+                "sv_id": "160515_155409",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "94.0",
+                "des": "Ball",
+                "sv_id": "160515_155432",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "93.9",
+                "des": "Foul Bunt",
+                "sv_id": "160515_155457",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Toque de foul"
+              },
+              {
+                "start_speed": "93.8",
+                "des": "In play, out(s)",
+                "sv_id": "160515_155522",
+                "pitch_type": "FF",
+                "type": "X",
+                "des_es": "En juego, out(s)"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "225048"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Gregorio Petit strikes out swinging.  ",
+              "b": "2",
+              "event_num": "498",
+              "b3": "",
+              "pitcher": "543557",
+              "b2": "",
+              "o": "2",
+              "batter": "463610",
+              "des_es": "Gregorio Petit se poncha tir&#225;ndole.  ",
+              "event_es": "Ponche",
+              "num": "63",
+              "start_tfs_zulu": "2016-05-15T22:52:43Z",
+              "s": "3",
+              "event": "Strikeout",
+              "b1": "",
+              "play_guid": "36f3df53-a701-41dd-bb02-4755c7e1d6c2",
+              "pitch": [
+              {
+                "start_speed": "94.6",
+                "des": "Ball",
+                "sv_id": "160515_155606",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "93.6",
+                "des": "Foul",
+                "sv_id": "160515_155626",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "94.7",
+                "des": "Foul",
+                "sv_id": "160515_155651",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "95.7",
+                "des": "Foul",
+                "sv_id": "160515_155718",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "77.4",
+                "des": "Ball",
+                "sv_id": "160515_155747",
+                "pitch_type": "CU",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "94.8",
+                "des": "Swinging Strike",
+                "sv_id": "160515_155810",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "225243"
+            },
+            {
+              "home_team_runs": "0",
+              "des": "Yunel Escobar strikes out swinging.  ",
+              "b": "2",
+              "event_num": "508",
+              "b3": "",
+              "pitcher": "543557",
+              "b2": "",
+              "o": "3",
+              "batter": "488862",
+              "des_es": "Yunel Escobar se poncha tir&#225;ndole.  ",
+              "event_es": "Ponche",
+              "num": "64",
+              "start_tfs_zulu": "2016-05-15T22:56:34Z",
+              "s": "3",
+              "event": "Strikeout",
+              "b1": "",
+              "play_guid": "a8733305-c6b8-4ba1-8f08-7c206b194bec",
+              "pitch": [
+              {
+                "start_speed": "94.9",
+                "des": "Ball",
+                "sv_id": "160515_160003",
+                "pitch_type": "FF",
+                "type": "B",
+                "des_es": "Bola mala"
+              },
+              {
+                "start_speed": "95.4",
+                "des": "Called Strike",
+                "sv_id": "160515_160022",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Strike cantado"
+              },
+              {
+                "start_speed": "77.8",
+                "des": "Ball In Dirt",
+                "sv_id": "160515_160042",
+                "pitch_type": "CU",
+                "type": "B",
+                "des_es": "Bola por el suelo"
+              },
+              {
+                "start_speed": "83.6",
+                "des": "Swinging Strike",
+                "sv_id": "160515_160113",
+                "pitch_type": "CH",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole"
+              },
+              {
+                "start_speed": "94.6",
+                "des": "Foul",
+                "sv_id": "160515_160140",
+                "pitch_type": "FF",
+                "type": "S",
+                "des_es": "Foul"
+              },
+              {
+                "start_speed": "78.0",
+                "des": "Swinging Strike (Blocked)",
+                "sv_id": "160515_160210",
+                "pitch_type": "CU",
+                "type": "S",
+                "des_es": "Strike tir&#225;ndole (Bloqueado)"
+              }
+              ],
+                "away_team_runs": "3",
+                "start_tfs": "225634"
+            }
+          ]
+        }
+      }
+      ],
+        "atBat": {
+          "pid": "429664"
+        },
+        "deck": {
+          "pid": "443558"
+        },
+        "hole": {
+          "pid": "455104"
+        }
+    }
+  }
+}

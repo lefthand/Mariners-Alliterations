@@ -58,11 +58,20 @@ app.use(function(err, req, res, next) {
   });
 });
 
+
 var process = require('./cron/process.js');
-schedule.scheduleJob('*/10 * * * *', function(){
+process.findGames();
+schedule.scheduleJob('* * * * *', function(){
   process.findGames();
 });
+
+process.completeGames();
+schedule.scheduleJob('*/10 * * * *', function(){
+  process.completeGames();
+});
+
 var game_schedule = require('./cron/schedule.js');
+game_schedule.saveSchedule();
 schedule.scheduleJob('52 9 * * *', function(){
   game_schedule.saveSchedule();
 });
