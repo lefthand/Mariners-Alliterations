@@ -58,23 +58,27 @@ app.use(function(err, req, res, next) {
   });
 });
 
+var environment = process.env.NODE_ENV;
 
-var process = require('./cron/process.js');
-process.findGames();
+var processGame = require('./cron/process.js');
 schedule.scheduleJob('* * * * *', function(){
-  process.findGames();
+  processGame.findGames();
 });
 
-process.completeGames();
 schedule.scheduleJob('*/10 * * * *', function(){
-  process.completeGames();
+  processGame.completeGames();
 });
 
 var game_schedule = require('./cron/schedule.js');
-game_schedule.saveSchedule();
 schedule.scheduleJob('52 9 * * *', function(){
   game_schedule.saveSchedule();
 });
+
+if (environment !== 'production') {
+  processGame.findGames();
+  processGame.completeGames();
+  game_schedule.saveSchedule();
+}
 
 module.exports = app;
 console.log('Ready to Roll');
